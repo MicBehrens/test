@@ -1,4 +1,4 @@
-import { Node, Input, Output } from '@rete/core';
+import { Node, Input, Output } from 'rete';
 import { NumSocket } from '../sockets';
 import type { Operator } from '../types';
 
