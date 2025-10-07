@@ -1,4 +1,4 @@
-import type { Node } from '@rete/core';
+import type { Node } from 'rete';
 import { KpiNode } from './nodes/kpi.node';
 import { StatNode } from './nodes/stat.node';
 import { GroupNode } from './nodes/group.node';
