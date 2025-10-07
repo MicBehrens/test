@@ -1,0 +1,12 @@
+<div #host style="width:100%; height:480px; border:1px solid #e5e7eb; border-radius:12px; margin-bottom:12px;"></div>
+<div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
+  <div>
+    <div style="font-weight:600;">Formel</div>
+    <code>{{ formulaText }}</code>
+  </div>
+  <div>
+    <div style="font-weight:600;">Resultat (demo)</div>
+    <code *ngIf="error === null">{{ result }}</code>
+    <code *ngIf="error !== null" style="color:#b91c1c;">{{ error }}</code>
+  </div>
+</div>
