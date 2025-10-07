@@ -1,2 +1,2 @@
-import { Socket } from '@rete/core';
+import { Socket } from 'rete';
 export const NumSocket = new Socket('Number');
