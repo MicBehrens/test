@@ -12,16 +12,17 @@
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
     "@angular/core": "^17.3.0",
+    "@angular/elements": "^17.3.0",
     "@angular/forms": "^17.3.0",
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "rxjs": "^7.8.1",
     "zone.js": "~0.14.3",
-    "@rete/core": "^2.0.0",
-    "@rete/engine": "^2.0.0",
-    "@rete/area-plugin": "^2.0.0",
-    "@rete/connection-plugin": "^2.0.0",
-    "@rete/angular-plugin": "^2.0.0"
+    "rete": "^2.0.0",
+    "rete-area-plugin": "^2.0.0",
+    "rete-connection-plugin": "^2.0.0",
+    "rete-angular-plugin": "^2.5.0",
+    "rete-render-utils": "^2.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.0",
