@@ -1,4 +1,4 @@
-import { Node, Output } from '@rete/core';
+import { Node, Output } from 'rete';
 import { NumSocket } from '../sockets';
 import type { KpiDef } from '../types';
 
