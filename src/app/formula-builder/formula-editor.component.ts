@@ -1,9 +1,9 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NodeEditor } from '@rete/core';
-import { AreaPlugin, AreaExtensions } from '@rete/area-plugin';
-import { ConnectionPlugin, Presets as ConnectionPresets } from '@rete/connection-plugin';
-import { AngularPlugin, Presets, AngularArea2D } from '@rete/angular-plugin';
+import { NodeEditor } from 'rete';
+import { AreaPlugin, AreaExtensions } from 'rete-area-plugin';
+import { ConnectionPlugin, Presets as ConnectionPresets } from 'rete-connection-plugin';
+import { AngularPlugin, Presets, AngularArea2D } from 'rete-angular-plugin/17';
 
 import { KpiNode } from './nodes/kpi.node';
 import { StatNode } from './nodes/stat.node';
